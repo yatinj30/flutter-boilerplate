@@ -4,7 +4,7 @@ A new Flutter boilerplate project developed by [Yatinj Sutariya](https://www.git
 
 ## Getting Started
 
-This project is boiler plate code for a Flutter application. It includes basic functionalities such as API calling using dio, shared preferences, how to use screenutil, etc.
+This project is boiler plate code for a Flutter application. It includes basic functionalities such as API calling using dio, localization using get, shared preferences, how to use screenutil, etc.
 
 A few resources to get you started if this is your first Flutter project:
 

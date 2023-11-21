@@ -7,15 +7,10 @@ import 'package:flutter_boilerplate/utils/app_constants.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class HomeScreen extends StatelessWidget {
+  HomeScreen({super.key});
 
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  var homeCnt = Get.put(HomeController());
+  final homeCnt = Get.put(HomeController());
 
   @override
   Widget build(BuildContext context) {

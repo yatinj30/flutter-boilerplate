@@ -14,24 +14,29 @@ class SplashScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              'hello'.tr,
-              style: TextStyle(
-                fontSize: 34.sp,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            Text(
-              'welcome-back'.tr,
-              style: TextStyle(
-                fontSize: 28.sp,
-                fontWeight: FontWeight.w500,
-              ),
+            Image.asset(
+              'assets/images/flutter.png',
+              width: 200.w,
             ),
             SizedBox(
               height: 15.h,
             ),
-            const CircularProgressIndicator(),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  'hello'.tr,
+                  style: TextStyle(
+                    fontSize: 34.sp,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                SizedBox(
+                  width: 10.w,
+                ),
+                const CircularProgressIndicator(),
+              ],
+            ),
           ],
         ),
       ),

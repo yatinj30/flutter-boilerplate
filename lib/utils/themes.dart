@@ -6,6 +6,9 @@ class Themes {
     iconTheme: IconThemeData(
       color: appLightIconColor,
     ),
+    textTheme: Typography().black.apply(
+          fontFamily: 'OpenSans',
+        ), // if you want to change the font for the whole app, make sure black typography is applied in light theme.
     // Override other theme properties here
   );
 
